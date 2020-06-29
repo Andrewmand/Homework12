@@ -1,0 +1,125 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact {
+    padding: 90px 0 50px;
+    width: 100%;
+    background: url(../assets/images/bg.png) no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #262626;
+}
+
+.contact h2 {
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 38px;
+}
+
+.contact h2+p {
+    text-align: center;
+    width: 350px;
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 36px;
+}
+
+.contact .contactBx {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 0 15px;
+}
+
+.contact .contactBx>li {
+    width: 500px;
+}
+
+.contact .contactBx>li input, .contact .contactBx>li textarea, .contact .contactBx>li button {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    border: none;
+    border-left: 5px solid #00c4c4;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #00c4c4;
+    opacity: .4;
+}
+
+.contact .contactBx>li *::placeholder {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.contact .contactBx>li textarea {
+    height: 250px;
+    resize: none;
+}
+
+.contact .contactBx>li button {
+    transition: all 0.3s ease-in-out;
+    height: 35px;
+}
+
+.contact .contactBx>li button:hover {
+    cursor: pointer;
+    opacity: unset;
+}
+
+.contact .contactBx>li input:focus, .contact .contactBx>li textarea:focus {
+    border-left-color: #355b82;
+    opacity: unset
+}
+
+.contact .contactBx>li .example {
+    font-weight: 300;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.contact .contactBx>li .example li {
+    margin-bottom: 15px;
+}
+
+.contact .contactBx>li .example p:nth-child(2) {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b9b9b9;
+    width: 100%;
+    height: 90px;
+    background-color: #262626;
+}
+
+footer ul {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+footer ul li:nth-child(2) {
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+}
+
+footer a {
+    color: #e22a51;
+    font-weight: 700;
+}
